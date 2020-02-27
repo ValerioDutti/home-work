@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+      <h1>Short Quiz</h1>
+        <nav>
+          <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+      <form action="https://formspree.io/xbjyyzrz" method="POST">
+        <p>Which team are you supporting ?</p>
+          <input type="radio" name="answer" value="Juventus">
+            <label>Juventus</label>
+            <br>
+          <input type="radio" name="answer" value="Lyon">
+            <label>Lyon</label>
+            <p>What is your favorite players?</p>
+              <label>Ronaldo
+                <input type="checkbox" name="Best player" value="Ronaldo">
+              </label>
+              <br>
+              <label>Dybala
+                <input type="checkbox" name="Best player" value="Dybala">
+              </label>
+              <br>
+              <label>Higuain
+                <input type="checkbox" name="Best player" value="Higuain">
+                <br>
+                <br>
+              </label>Who will scored at the next game?</lable>
+                <select name="Football player">
+                  <option></option>
+                  <option value="Ronaldo">Ronaldo</option>
+                  <option value="Dybala">Dybala</option>
+                  <option value="Higuain">Higuain</option>
+                </select>
+                <br>
+                <br>
+                 <p>Who have more chances to win at the second led game?</p>
+                   <label>Juventus</label>
+                     <input type="range" name="winner" min="0" max"100" step="10">
+                   <lable>Lyon</lable>
+                <br>
+                <br>
+                  <label>Your name:</label> 
+                    <input type="text" name="fan-name" placeholder="Name" required>
+                 <br>
+                   <label>Your age:</label>
+                     <input type="text" name="fan-age" placeholder="Age">
+                     <br>
+                     <label>Email</label>
+                       <input type="text" name="fan-email" placeholder="Email" required>
+                     <br>
+                     <input type="submit" value="send">  
+                     <input type="reset" value="reset"     
+      </form>
+    </main>
+</body>
+</html>
